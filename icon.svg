@@ -1,0 +1,98 @@
+<svg width="1024" height="1024" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="wbody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#bbbbbb"/>
+    </linearGradient>
+    <linearGradient id="bbody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#555"/>
+      <stop offset="100%" stop-color="#111"/>
+    </linearGradient>
+    <clipPath id="leftHalf">
+      <rect x="0" y="0" width="340" height="680"/>
+    </clipPath>
+    <clipPath id="rightHalf">
+      <rect x="340" y="0" width="340" height="680"/>
+    </clipPath>
+  </defs>
+  <rect width="680" height="680" rx="120" fill="url(#bg)"/>
+  <g clip-path="url(#leftHalf)">
+    <ellipse cx="340" cy="608" rx="162" ry="18" fill="#aaa"/>
+    <rect x="178" y="572" width="162" height="36" fill="#e0e0e0"/>
+    <ellipse cx="340" cy="572" rx="162" ry="18" fill="#f0f0f0"/>
+    <ellipse cx="340" cy="554" rx="138" ry="15" fill="#888"/>
+    <rect x="202" y="539" width="138" height="15" fill="#666"/>
+    <ellipse cx="340" cy="539" rx="138" ry="15" fill="#aaa"/>
+    <path d="M178 539 C180 478 202 445 252 420 L340 420 L340 539 Z" fill="url(#wbody)"/>
+    <ellipse cx="340" cy="420" rx="116" ry="13" fill="#888"/>
+    <rect x="224" y="407" width="116" height="13" fill="#666"/>
+    <ellipse cx="340" cy="407" rx="116" ry="13" fill="#aaa"/>
+    <path d="M240 407 C242 380 254 362 270 350 L340 350 L340 407 Z" fill="url(#wbody)"/>
+    <ellipse cx="340" cy="350" rx="97" ry="11" fill="#888"/>
+    <rect x="243" y="339" width="97" height="11" fill="#666"/>
+    <ellipse cx="340" cy="339" rx="97" ry="11" fill="#aaa"/>
+    <path d="M243 339 C244 304 256 278 272 257 L340 257 L340 339 Z" fill="url(#wbody)"/>
+    <ellipse cx="340" cy="257" rx="80" ry="10" fill="#888"/>
+    <rect x="260" y="247" width="80" height="10" fill="#666"/>
+    <ellipse cx="340" cy="247" rx="80" ry="10" fill="#bbb"/>
+    <path d="M298 247 L298 220 L340 210 L340 247 Z" fill="#e0e0e0"/>
+    <ellipse cx="340" cy="220" rx="98" ry="11" fill="#888"/>
+    <rect x="242" y="209" width="98" height="11" fill="#666"/>
+    <ellipse cx="340" cy="209" rx="98" ry="11" fill="#ddd"/>
+    <path d="M242 209 L242 190 L340 178 L340 209 Z" fill="url(#wbody)"/>
+    <path d="M254 190 L238 138 L270 183 Z" fill="#ccc"/>
+    <circle cx="238" cy="128" r="17" fill="#e8e8e8"/>
+    <circle cx="238" cy="128" r="9" fill="#888"/>
+    <circle cx="238" cy="128" r="4" fill="#ddd"/>
+    <path d="M285 190 L272 146 L304 186 Z" fill="#e0e0e0"/>
+    <circle cx="272" cy="136" r="15" fill="#f0f0f0"/>
+    <circle cx="272" cy="136" r="8" fill="#888"/>
+    <circle cx="272" cy="136" r="3.5" fill="#ddd"/>
+    <path d="M318 190 L340 106 L340 190 Z" fill="#ddd"/>
+    <circle cx="340" cy="94" r="23" fill="#f0f0f0"/>
+    <circle cx="340" cy="94" r="13" fill="#888"/>
+    <circle cx="340" cy="94" r="6" fill="#ddd"/>
+  </g>
+  <g clip-path="url(#rightHalf)">
+    <ellipse cx="340" cy="608" rx="162" ry="18" fill="#111"/>
+    <rect x="340" y="572" width="162" height="36" fill="#222"/>
+    <ellipse cx="340" cy="572" rx="162" ry="18" fill="#333"/>
+    <ellipse cx="340" cy="554" rx="138" ry="15" fill="#111"/>
+    <rect x="340" y="539" width="138" height="15" fill="#1a1a1a"/>
+    <ellipse cx="340" cy="539" rx="138" ry="15" fill="#2a2a2a"/>
+    <path d="M340 420 L428 420 C478 445 500 478 502 539 L340 539 Z" fill="url(#bbody)"/>
+    <ellipse cx="340" cy="420" rx="116" ry="13" fill="#111"/>
+    <rect x="340" y="407" width="116" height="13" fill="#1a1a1a"/>
+    <ellipse cx="340" cy="407" rx="116" ry="13" fill="#2a2a2a"/>
+    <path d="M340 350 L410 350 C426 362 438 380 440 407 L340 407 Z" fill="url(#bbody)"/>
+    <ellipse cx="340" cy="350" rx="97" ry="11" fill="#111"/>
+    <rect x="340" y="339" width="97" height="11" fill="#1a1a1a"/>
+    <ellipse cx="340" cy="339" rx="97" ry="11" fill="#2a2a2a"/>
+    <path d="M340 257 L408 257 C424 278 436 304 437 339 L340 339 Z" fill="url(#bbody)"/>
+    <ellipse cx="340" cy="257" rx="80" ry="10" fill="#111"/>
+    <rect x="340" y="247" width="80" height="10" fill="#1a1a1a"/>
+    <ellipse cx="340" cy="247" rx="80" ry="10" fill="#333"/>
+    <path d="M340 247 L382 220 L382 247 Z" fill="#2a2a2a"/>
+    <ellipse cx="340" cy="220" rx="98" ry="11" fill="#111"/>
+    <rect x="340" y="209" width="98" height="11" fill="#1a1a1a"/>
+    <ellipse cx="340" cy="209" rx="98" ry="11" fill="#333"/>
+    <path d="M340 178 L438 190 L438 209 L340 209 Z" fill="url(#bbody)"/>
+    <path d="M376 186 L408 146 L395 190 Z" fill="#333"/>
+    <circle cx="408" cy="136" r="15" fill="#2a2a2a"/>
+    <circle cx="408" cy="136" r="8" fill="#555"/>
+    <circle cx="408" cy="136" r="3.5" fill="#333"/>
+    <path d="M410 183 L442 138 L426 190 Z" fill="#222"/>
+    <circle cx="442" cy="128" r="17" fill="#2a2a2a"/>
+    <circle cx="442" cy="128" r="9" fill="#555"/>
+    <circle cx="442" cy="128" r="4" fill="#333"/>
+    <path d="M340 106 L362 190 L340 190 Z" fill="#222"/>
+    <circle cx="340" cy="94" r="23" fill="#2a2a2a"/>
+    <circle cx="340" cy="94" r="13" fill="#555"/>
+    <circle cx="340" cy="94" r="6" fill="#333"/>
+  </g>
+  <line x1="340" y1="75" x2="340" y2="615" stroke="#999" stroke-width="1.5" opacity="0.6"/>
+</svg>

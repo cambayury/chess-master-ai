@@ -1,0 +1,56 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+*.iml
+.idea/
+.DS_Store
+
+# Android
+android/.gradle/
+android/.kotlin/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.jar
+android/local.properties
+android/app/.cxx/
+**/GeneratedPluginRegistrant.java
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner/GeneratedPluginRegistrant.*
+**/xcuserdata/
+**/DerivedData/
+
+# Keys and passwords: never commit
+android/key.properties
+*.jks
+*.keystore
+*.p12
+*.p8
+*.pem
+*.key
+*.csr
+*.cer
+*.mobileprovision
+*base64*
+*.bak*
+
+# Third-party assets that are not redistributed (see README)
+assets/pieces/*
+assets/sounds/*
+assets/models3d/*
+!assets/pieces/README.md
+!assets/sounds/README.md
+!assets/models3d/README.md

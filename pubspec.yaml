@@ -1,0 +1,41 @@
+
+name: chess_master_ai
+description: Chess Master AI - Play chess against a powerful AI engine.
+publish_to: 'none'
+version: 1.0.19+22
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter_cube: ^0.1.1
+  flutter:
+    sdk: flutter
+  flutter_chess_board: ^1.0.1
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2
+  stockfish: ^1.8.1
+  purchases_flutter: ^10.0.1
+  audioplayers: ^6.6.0
+  flutter_launcher_icons: ^0.14.4
+  url_launcher: ^6.2.5
+  package_info_plus: ^10.2.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models3d/
+    - assets/images/
+    - assets/sounds/
+    - assets/pieces/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "icon_1024.png"
+  min_sdk_android: 23
